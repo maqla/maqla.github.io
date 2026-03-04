@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+    --space-mono: 'Space Mono', monospace;
+    --marathon-green: #c0fe04;
+}
+
+html {
+    font-family: var(--space-mono);
+}
+
+body {
+    
+}
