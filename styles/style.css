@@ -1,14 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-
 :root {
     --space-mono: 'Space Mono', monospace;
     --marathon-green: #c0fe04;
+    --codex-green: #05ab32;
+    --dark-gray: #111;
 }
-
 html {
     font-family: var(--space-mono);
+    background-color: #111;
+    color: var(--codex-green);
+    font-size: 16px;
 }
-
 body {
-    
+    margin: 0;
+}
+a{
+    color: #c0fe04;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content {
+    max-width: 800px;
+    font-size: 14px;
+}
+.art-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art {
+    width: 300px;
+    height: 300px;
+    margin: 2rem;
+}
+.arabic {
+    color:#ffff;
+    font-size:18px;
+    font-family:Arial;
+}
+#version {
+    background-color: #102e1b;
+    width: 100%;
+    padding-left: 2em;
 }
