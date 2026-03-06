@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 a{
-    color: #c0fe04;
+    color: #ffff;
 }
 .main-content {
     display: flex;
@@ -25,6 +25,7 @@ a{
 .content {
     max-width: 800px;
     font-size: 14px;
+    margin: 2rem;
 }
 .art-container {
     display: flex;
@@ -41,8 +42,8 @@ a{
     font-size:18px;
     font-family:Arial;
 }
-#version {
+/* #version {
     background-color: #102e1b;
     width: 100%;
     padding-left: 2em;
-}
+} */
